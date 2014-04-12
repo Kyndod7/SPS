@@ -1,4 +1,4 @@
-function [discharge_rate_hour] = util_discharge_rate(filename)
+function [discharge_rate_hour] = func_discharge_rate(filename)
 
 log = func_log_parser(filename);
 
